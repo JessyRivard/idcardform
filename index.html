@@ -9,14 +9,26 @@
 </head>
 <body>
     <h1>Let's Create an ID card!</h1>
-    <form id="card" action="" method="">
+    <form id="cardForm" action="" method="">
         <input id="fname" type="text" name="fname" placeholder="First Name" required><br>
         <input id="lname" type="text" name="lname" placeholder="Last Name" required><br>
         <input id="age" type="number" name="age" placeholder="Age" required><br>
-        <input id="tel" type="tel" name="pnum" placeholder="Phone Number" required><br>
+        <input id="tel" type="number" name="pnum" placeholder="Phone Number" required><br>
         <input id="addr" type="text" name="addr" placeholder="Address" required><br>
+
     </form>
     <button form="card" type="submit" onclick="idCard()">Submit</button>
+    <div id="cardDisp">
+        <div class="cardHead">
+            
+            <div id="postFullName"></div>
+        </div>
+        <div class="cardBody">
+            <div id="postAge"></div>
+            <div id="postPhoneNumber"></div>
+            <div id="postAddress"></div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
