@@ -5,19 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ID Card Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Let's Create an ID card!</h1>
     <form id="cardForm" action="" method="">
+        <label for="fname">First Name:</label><br>
         <input id="fname" type="text" name="fname" placeholder="First Name" required><br>
+        <label for="lname">Last Name:</label><br>
         <input id="lname" type="text" name="lname" placeholder="Last Name" required><br>
+        <label for="age">Age:</label><br>
         <input id="age" type="number" name="age" placeholder="Age" required><br>
+        <label for="tel">Phone Number:</label><br>
         <input id="tel" type="number" name="pnum" placeholder="Phone Number" required><br>
+        <label for="addr">Address:</label><br>
         <input id="addr" type="text" name="addr" placeholder="Address" required><br>
 
+
     </form>
-    <button form="card" type="submit" onclick="idCard()">Submit</button>
+    <div id="buttonHolder">
+        <button id="cardFormSubmit" form="card" type="submit" onclick="idCard()">Create your ID Card!</button>
+    </div>
     <div id="cardDisp">
         <div class="cardHead">
             

@@ -1,0 +1,39 @@
+body {
+    background-color: #CFFFF3
+}
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 3em;
+    text-align: center
+}
+#cardForm {
+    text-align: center;
+    line-height: 1.3;
+    font-family: 'Noto Sans', sans-serif
+}
+#buttonHolder {
+    text-align: center;
+    margin-bottom: 15px
+}
+#cardDisp {
+    height: 180px;
+    width: 285px;
+    border: 3px black solid;
+    border-radius: 20px;
+    margin: auto;
+    background-color: cornsilk;
+    font-family: 'Ubuntu', sans-serif
+}
+.cardHead {
+    height: 30%
+}
+#postFullName {
+    text-align: center;
+    font-size: 25px;
+    margin: 7%
+}
+.cardBody {
+    height: 70%;
+    margin: 8px;
+    line-height: 1.5
+}
