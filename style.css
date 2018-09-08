@@ -1,3 +1,8 @@
+img {
+    width: 90px;
+    height: 90px;
+    float: left
+}
 body {
     background-color: #CFFFF3
 }
@@ -15,25 +20,21 @@ h1 {
     text-align: center;
     margin-bottom: 15px
 }
-#cardDisp {
-    height: 180px;
-    width: 285px;
-    border: 3px black solid;
+#idCard {
+    height: 14em;
+    width: 25em;
+    border: 5px solid black;
     border-radius: 20px;
     margin: auto;
     background-color: cornsilk;
     font-family: 'Ubuntu', sans-serif
 }
 .cardHead {
-    height: 30%
-}
-#postFullName {
+    height: 30%;
     text-align: center;
-    font-size: 25px;
-    margin: 7%
+    font-size: 22pt;
 }
 .cardBody {
     height: 70%;
-    margin: 8px;
-    line-height: 1.5
+    margin: 12px
 }

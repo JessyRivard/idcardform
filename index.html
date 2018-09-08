@@ -10,32 +10,30 @@
 </head>
 <body>
     <h1>Let's Create an ID card!</h1>
-    <form id="cardForm" action="" method="">
+    <form id="cardForm" action="" method="get">
         <label for="fname">First Name:</label><br>
-        <input id="fname" type="text" name="fname" placeholder="First Name" required><br>
+        <input id="fname" type="text" name="fname" placeholder="First Name"><br>
         <label for="lname">Last Name:</label><br>
-        <input id="lname" type="text" name="lname" placeholder="Last Name" required><br>
+        <input id="lname" type="text" name="lname" placeholder="Last Name"><br>
         <label for="age">Age:</label><br>
-        <input id="age" type="number" name="age" placeholder="Age" required><br>
+        <input id="age" type="number" name="age" placeholder="Age"><br>
         <label for="tel">Phone Number:</label><br>
-        <input id="tel" type="number" name="pnum" placeholder="Phone Number" required><br>
+        <input id="tel" type="number" name="pnum" placeholder="Phone Number"><br>
         <label for="addr">Address:</label><br>
-        <input id="addr" type="text" name="addr" placeholder="Address" required><br>
-
-
+        <input id="addr" type="text" name="addr" placeholder="Address"><br>
     </form>
     <div id="buttonHolder">
-        <button id="cardFormSubmit" form="card" type="submit" onclick="idCard()">Create your ID Card!</button>
+        <button form="card" type="submit" onclick="idCard()">Create your ID Card!</button>
     </div>
-    <div id="cardDisp">
+    <div id="idCard">
+        <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
         <div class="cardHead">
-            
-            <div id="postFullName"></div>
+            <p id="postFullName"></p>
         </div>
         <div class="cardBody">
-            <div id="postAge"></div>
-            <div id="postPhoneNumber"></div>
-            <div id="postAddress"></div>
+            <p id="postAge"></p>
+            <p id="postPhoneNumber"></p>
+            <p id="postAddress"></p>
         </div>
     </div>
     <script src="script.js"></script>
